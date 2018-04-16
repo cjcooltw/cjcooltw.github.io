@@ -24,7 +24,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <body>
 <p>Some Text</p></body>
 <button id="button1" onclick="dataLayer.push({'event': 'button1-click'}">Click Me!</button>
-
+<a onclick="dataLayer.push({'event': 'customEvent', 'eventInfo': {'category': 'Button',
+'action': 'press'}})">...</a>
 </body>
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P2RZHT6"
